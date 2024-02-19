@@ -1,0 +1,411 @@
+body {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+#background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -10;
+    object-fit: cover;
+}
+
+.header {
+    display: flex;
+}
+#photo-header {
+    order: 1;
+    position: relative;
+    width: 720px;
+    height: 907px;
+    left: 4%;
+}
+
+#header-poster {
+    position: absolute;
+    border-radius: 0 0 0 80px;
+    z-index: -1;
+
+}
+
+.navbar {
+    position: relative;
+    width: 600px;
+    top: 46px;
+    left: 93px;
+    display: flex;
+    flex-direction: row;
+    font-weight: 600;
+}
+
+.navbar button {
+    width: auto;
+    height: 45px;
+    padding: 12px 24px;
+    border-radius: 32px;
+    color: #047857;
+    background-color: #D1FAE5;
+    border: none;
+    font-size: 14px;
+    margin-left: 100px;
+    font-family: "Lexend", sans-serif;
+}
+
+.navbar-links {
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.links-in-navbar {
+    text-decoration: none; /* Remove default underline */
+    border: 1px solid white;
+    width: auto;
+    height: auto;
+    padding: 8px 16px;
+    border-radius: 32px;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: "Lexend", sans-serif;
+}
+
+.navbar-links select {
+    background-color: transparent;
+    font-family: "Lexend", sans-serif;
+
+}
+
+
+
+
+
+.white-block {
+    width: auto;
+    justify-content: space-between;
+    margin-left: 20px;
+    height: auto;
+    border-radius: 32px;
+    background-color: white;
+    color: #1B1C57;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    padding: 30px;
+
+}
+
+.avatar {
+    width: 56px;
+    height: 56px;
+    border: 3px solid white; /* Added 'solid white' to specify border style and color */
+    border-radius: 50%;
+}
+
+
+.spans-avatar {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    font-weight: 600;
+    padding-left: 10px;
+}
+
+.spans-avatar span{
+    padding: 2px;
+}
+
+.spans-avatar :last-child {
+    font-size: 12px;
+    font-weight: 400;
+    color: #68799F;
+}
+
+
+.white-blocks-avatars {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 58%;
+    width: 112%;
+
+}
+
+
+
+.avatar-container {
+    /*position: absolute;*/
+    /*width: 200px;*/
+
+    /*height: 25px;*/
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0 15px 0;
+    /*top: 15%; !* Adjust top position as needed *!*/
+    /*left: 0; !* Adjust left position as needed *!*/
+
+}
+
+.avatar-container #first {
+    left: 24px;
+    position: relative;
+}
+
+.avatar-container #second {
+    position: relative;
+}
+
+.avatar-container #third {
+    position: relative;
+    left: -24px;
+}
+
+
+
+
+
+
+
+
+
+
+#main-header {
+    position: relative;
+    top: 45px;
+    left: 120px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+#logo-at-first {
+    position: relative;
+    /*top: 45px;*/
+    /*left: 120px;*/
+}
+
+.welcome-text {
+    width: 550px;
+    display: inline-block;
+    font-size: 40px;
+    font-weight: 700;
+    color: #1B1C57;
+    text-align: left;
+    /*line-height: 28;*/
+
+}
+div.welcome-text span{
+    font-weight: 100;
+    font-size: 19px;
+    color: #626687;
+}
+
+/*.partner-links {*/
+/*    width: 10px;*/
+/*    height: 10px;*/
+/*}*/
+
+#search-location {
+    display: flex;
+    flex-direction: row;
+    width: 496px; /* Fixed width */
+    height: fit-content; /* Hugs content height */
+    padding: 10px 4px 10px 24px; /* Padding: top, right, bottom, left */
+    border-radius: 32px; /* Border radius */
+    gap: 16px; /* Gap between elements */
+    border: 1px solid #E0E3EB;
+    margin: 35px 0;
+}
+
+form input {
+    font-size: 14px;
+    font-weight: 500;
+    border: none;
+    width: 300px;
+    font-family: "Lexend", sans-serif;
+}
+
+.button-search {
+    background-color: #10B981;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 32px; /* Rounded corners */
+    font-family: "Lexend", sans-serif;
+}
+
+.search-field {
+    display: flex;
+    align-items: center; /* This centers the content vertically */
+    gap: 10px;
+    color: #888B97;
+    font-family: "Lexend", sans-serif;
+}
+
+.search-field {
+    font-family: "Lexend", sans-serif;
+}
+
+.button-search img {
+    margin-left: 5px; /* Adjust spacing as needed */
+}
+
+.icons {
+    height: 24px;
+    width: 24px;
+}
+
+#partners span {
+    color: #888B97;
+}
+
+#partners div {
+    width: 427px;
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 0;
+}
+
+#partners div img {
+    width: 90px;
+}
+
+
+
+
+/*#main-header {*/
+/*    position: relative;*/
+/*    top: 45px;*/
+/*    left: 120px;*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    width: 50%;*/
+/*}*/
+
+#first-section {
+    position: relative;
+    left: 120px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.header-with-line {
+    font-size: 32px;
+}
+
+.div-with-line {
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Align content vertically */
+    gap: 15px; /* Create a gap between elements */
+}
+
+.div-with-line hr {
+    text-align: left;
+    margin: 0;
+    border: none; /* Remove the default border */
+    border-top: 1px solid #F59E0B; /* Add a solid border on top */
+    width: 32px;
+    height: 1px;
+}
+
+.div-with-line span {
+    color: #F59E0B;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.header-with-line {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.header-with-line h2{
+    color: #1B1C57;
+    position: relative;
+    left: 6%;
+}
+
+
+.header-section-1 {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    justify-content: space-between;
+    width: 90%;
+}
+
+#house-villa-apart {
+    display: flex;
+    flex-direction: row;
+    /*justify-content: space-between;*/
+    gap: 50px;
+    /*width: 35%;*/
+}
+
+
+
+#arrows {
+    display: flex;
+    flex-direction: row;
+    /*justify-content: space-between;*/
+    gap: 20px;
+    width: 10%;
+    height: 52px;
+    padding-right: 100px;
+}
+#arrows button {
+    /*width: auto;*/
+    /*height: 45px;*/
+    padding: 12px 26px;
+    border-radius: 32px;
+    border: none;
+    font-size: 14px;
+    /*margin-left: 100px;*/
+
+    font-family: "Lexend", sans-serif;
+}
+
+#left-arrow {
+    background-color: #E0E3EB;
+}
+
+#right-arrow {
+    background-color: #10B981;
+}
+
+.green-icons {
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    height: 24px;
+    padding: 12px 24px 12px 24px;
+    border-radius: 32px;
+    gap: 8px;
+    background-color: #D1FAE5;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+
+.green-icons img {
+
+}

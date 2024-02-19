@@ -4,17 +4,21 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
     <title>My test page</title>
+    <link rel="stylesheet" href="mystyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-<img src="icons/background.png" alt="Background">
-    <header>
-        <section>
-            <img src="icons/house-1.png" alt="House">
-            <div>
-                <div>
-                    <a href="">About us</a>
-                    <a href="">Article</a>
-                    <select>
+<img id="background" src="icons/background.png" alt="Background">
+    <header class="header">
+        <section id="photo-header">
+            <img id="header-poster" src="icons/house-1.png" alt="House">
+            <div class="navbar">
+                <div class="navbar-links">
+                    <a class="links-in-navbar" href="">About us</a>
+                    <a class="links-in-navbar" href="">Article</a>
+                    <select class="links-in-navbar">
                         <option value="">Property</option>
                         <option value="">Another</option>
                         <option value="">Another</option>
@@ -22,32 +26,35 @@
                 </div>
                 <button>Sign up!</button>
             </div>
-            <div>
-                <div>
-                    <div>
-                        <img src="icons/avatar-1.jpeg" alt="avatar">
-                        <img src="icons/avatar-2.jpeg" alt="avatar">
-                        <img src="icons/avatar-3.jpeg" alt="avatar">
+            <div class="white-blocks-avatars">
+
+                <div class="white-block">
+                    <div class="avatar-container">
+                        <img id="first" class="avatar" src="icons/avatar-1.jpeg" alt="avatar">
+                        <img id="second"class="avatar" src="icons/avatar-2.jpeg" alt="avatar">
+                        <img id="third" class="avatar" src="icons/avatar-3.jpeg" alt="avatar">
                     </div>
-                    <div>
+                    <div class="spans-avatar">
                         <span>1K+ People</span>
                         <span>Successfully Getting Home</span>
                     </div>
                 </div>
-                <div>
-                    <div>
-                        <img src="icons/house-2.jpeg" alt="house">
+
+
+                <div class="white-block">
+                    <div class="avatar-container">
+                        <img class="avatar"  src="icons/house-2.jpeg" alt="house">
                     </div>
-                    <div>
+                    <div class="spans-avatar">
                         <span>56 Houses</span>
                         <span>Sold Monthly</span>
                     </div>
                 </div>
-                <div>
-                    <div>
-                        <img src="icons/avatar-4.jpeg" alt="avatar">
+                <div class="white-block">
+                    <div class="avatar-container">
+                        <img class="avatar"  src="icons/avatar-4.jpeg" alt="avatar">
                     </div>
-                    <div>
+                    <div class="spans-avatar">
                         <span>4K+</span>
                         <span>People Looking for New Homes</span>
                     </div>
@@ -55,28 +62,28 @@
             </div>
         </section>
 
-        <section>
+        <section id="main-header">
             <div>
-                <img src="icons/logo.svg" alt="Logo">
+                <img id="logo-at-first" src="icons/logo.svg" alt="Logo">
             </div>
-            <div>
-                <h1>Find The Place To</h1>
-                <h1>Live</h1>
-                <h1>Your Dreams</h1>
-                <h1>Easily Here</h1>
+            <div class="welcome-text">
+                <h1>Find The Place To Live Your Dreams Easily Here</h1>
+<!--                <h1>Live Your Dreams</h1>-->
+<!--                <h1>Your Dreams</h1>-->
+<!--                <h1>Easily Here</h1>-->
                 <span>Everything you need about finding your place to live will be here, where it will be easier for you</span>
             </div>
-            <form>
-                <input type="text" id="" placeholder="Search for the location you want!">
-                <img src="icons/maps.svg" alt="maps flag">
-                <div>
-                    <button>
-                        <span>Search</span>
-                        <img src="icons/arrow-r.svg" alt="arrow">
-                    </button>
+            <form id="search-location">
+                <div class="search-field">
+                    <img class="icons" src="icons/maps.svg" alt="maps flag">
+                    <input type="text" id="" placeholder="Search for the location you want!">
                 </div>
+                <button class="button-search">
+                    <span>Search</span>
+                    <img src="icons/arrow-r.svg" alt="arrow">
+                </button>
             </form>
-            <div>
+            <div id ="partners">
                 <span>Our Partnership</span>
                 <div>
                     <a href="https://www.traveloka.com/en-id">
@@ -97,34 +104,34 @@
     </header>
 
     <main>
-        <section>
-            <header>
-                <div>
-                    <div>
+        <section id="first-section">
+            <header class="header-section-1">
+                <div class="header-with-line">
+                    <div class="div-with-line">
                         <hr>
                         <span>Our Recommendation</span>
                     </div>
                     <h2>Featured House</h2>
                 </div>
-                <div>
-                    <div>
-                        <img src="icons/house-g.svg" alt="logo house">
+                <div id="house-villa-apart">
+                    <div class="green-icons">
+                        <img class="icons" src="icons/house-g.svg" alt="logo house">
                         <span>House</span>
                     </div>
-                    <div>
-                        <img src="icons/villa.svg" alt="logo villa">
+                    <div class="green-icons">
+                        <img class="icons" src="icons/villa.svg" alt="logo villa">
                         <span>Villa</span>
                     </div>
-                    <div>
-                        <img src="icons/apartment.svg" alt="logo apartment">
+                    <div class="green-icons">
+                        <img class="icons" src="icons/apartment.svg" alt="logo apartment">
                         <span>Apartment</span>
                     </div>
                 </div>
-                <div>
-                    <button>
+                <div id="arrows">
+                    <button id="left-arrow">
                         <img src="icons/arrow-l.svg" alt="arrow">
                     </button>
-                    <button>
+                    <button id="right-arrow">
                         <img src="icons/arrow-r.svg" alt="arrow">
                     </button>
                 </div>
