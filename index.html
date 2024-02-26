@@ -10,58 +10,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-<img id="background" src="icons/background.png" alt="Background">
+    <img id="background" src="icons/background.png" alt="Background">
     <header class="header">
-        <section id="photo-header">
-            <img id="header-poster" src="icons/house-1.png" alt="House">
-            <div class="navbar">
-                <div class="navbar-links">
-                    <a class="links-in-navbar" href="">About us</a>
-                    <a class="links-in-navbar" href="">Article</a>
-                    <select class="links-in-navbar">
-                        <option value="">Property</option>
-                        <option value="">Another</option>
-                        <option value="">Another</option>
-                    </select>
-                </div>
-                <button>Sign up!</button>
-            </div>
-            <div class="white-blocks-avatars">
-
-                <div class="white-block">
-                    <div class="avatar-container">
-                        <img id="first" class="avatar" src="icons/avatar-1.jpeg" alt="avatar">
-                        <img id="second"class="avatar" src="icons/avatar-2.jpeg" alt="avatar">
-                        <img id="third" class="avatar" src="icons/avatar-3.jpeg" alt="avatar">
-                    </div>
-                    <div class="spans-avatar">
-                        <span>1K+ People</span>
-                        <span>Successfully Getting Home</span>
-                    </div>
-                </div>
-
-
-                <div class="white-block">
-                    <div class="avatar-container">
-                        <img class="avatar"  src="icons/house-2.jpeg" alt="house">
-                    </div>
-                    <div class="spans-avatar">
-                        <span>56 Houses</span>
-                        <span>Sold Monthly</span>
-                    </div>
-                </div>
-                <div class="white-block">
-                    <div class="avatar-container">
-                        <img class="avatar"  src="icons/avatar-4.jpeg" alt="avatar">
-                    </div>
-                    <div class="spans-avatar">
-                        <span>4K+</span>
-                        <span>People Looking for New Homes</span>
-                    </div>
-                </div>
-            </div>
-        </section>
-
         <section id="main-header">
             <div>
                 <img id="logo-at-first" src="icons/logo.svg" alt="Logo">
@@ -73,10 +23,10 @@
 <!--                <h1>Easily Here</h1>-->
                 <span>Everything you need about finding your place to live will be here, where it will be easier for you</span>
             </div>
-            <form id="search-location">
+            <form class="search-location">
                 <div class="search-field">
                     <img class="icons" src="icons/maps.svg" alt="maps flag">
-                    <input type="text" id="" placeholder="Search for the location you want!">
+                    <input type="text" placeholder="Search for the location you want!">
                 </div>
                 <button class="button-search">
                     <span>Search</span>
@@ -101,10 +51,57 @@
                 </div>
             </div>
         </section>
+
+        <section id="photo-header">
+            <img id="header-poster" src="icons/house-1.png" alt="House">
+            <div class="navbar">
+                <div class="navbar-links">
+                    <a class="links-in-navbar" href="">About us</a>
+                    <a class="links-in-navbar" href="">Article</a>
+                    <select class="links-in-navbar">
+                        <option value="">Property</option>
+                        <option value="">Another</option>
+                        <option value="">Another</option>
+                    </select>
+                </div>
+                <button>Sign up!</button>
+            </div>
+            <div class="white-blocks-avatars">
+                <div class="white-block">
+                    <div class="avatar-container">
+                        <img id="first" class="avatar" src="icons/avatar-1.jpeg" alt="avatar">
+                        <img id="second" class="avatar" src="icons/avatar-2.jpeg" alt="avatar">
+                        <img id="third" class="avatar" src="icons/avatar-3.jpeg" alt="avatar">
+                    </div>
+                    <div class="spans-avatar">
+                        <span>1K+ People</span>
+                        <span>Successfully Getting Home</span>
+                    </div>
+                </div>
+                <div class="white-block fif-houses">
+                    <div id="small-house">
+                        <img class="avatar"  src="icons/house-2.jpeg" alt="house">
+                    </div>
+                    <div class="spans-avatar">
+                        <span>56 Houses</span>
+                        <span>Sold Monthly</span>
+                    </div>
+                </div>
+                <div class="white-block fif-houses">
+                    <div>
+                        <img class="avatar"  src="icons/avatar-4.jpeg" alt="avatar">
+                    </div>
+                    <div class="spans-avatar">
+                        <span>4K+</span>
+                        <span>People Looking for New Homes</span>
+                    </div>
+                </div>
+            </div>
+        </section>
     </header>
 
     <main>
-        <section id="first-section">
+        <section class="section" id="one">
             <header class="header-section-1">
                 <div class="header-with-line">
                     <div class="div-with-line">
@@ -114,7 +111,7 @@
                     <h2>Featured House</h2>
                 </div>
                 <div id="house-villa-apart">
-                    <div class="green-icons">
+                    <div class="green-icons" id="firsted">
                         <img class="icons" src="icons/house-g.svg" alt="logo house">
                         <span>House</span>
                     </div>
@@ -136,20 +133,20 @@
                     </button>
                 </div>
             </header>
-            <div>
-                <article>
-                    <div>
-                        <img src="icons/house-3.jpeg" alt="house">
-                        <div>
-                            <img src="icons/fire.svg" alt="logo Popular">
+            <div class="container-with-articles">
+                <article class="article">
+                    <div class="houses-in-section-2">
+                        <img class="img-in-section-2" src="icons/house-3.jpeg" alt="house">
+                        <div class="popular-and">
+                            <img class="four-house" src="icons/fire.svg" alt="logo Popular">
                             <span>Popular</span>
                         </div>
                     </div>
-                    <div>
+                    <div class="name-price">
                         <span>Roselands House</span>
                         <span>$ 35.000.000</span>
                     </div>
-                    <div>
+                    <div class="name-city-avatar">
                         <img src="icons/avatar-3.jpeg" alt="avatar">
                         <div>
                             <span>Dianne Russell</span>
@@ -157,19 +154,19 @@
                         </div>
                     </div>
                 </article>
-                <article>
-                    <div>
-                        <img src="icons/house-4.jpeg" alt="house">
-                        <div>
+                <article class="article">
+                    <div class="houses-in-section-2">
+                        <img class="img-in-section-2" src="icons/house-4.jpeg" alt="house">
+                        <div class="popular-and" id="blue-house">
                             <img src="icons/house-b.svg" alt="logo house">
                             <span>New House</span>
                         </div>
                     </div>
-                    <div>
+                    <div class="name-price">
                         <span>Woodlandside</span>
                         <span>$ 20.000.000</span>
                     </div>
-                    <div>
+                    <div class="name-city-avatar">
                         <img src="icons/avatar-5.jpeg" alt="avatar">
                         <div>
                             <span>Robert Fox</span>
@@ -177,19 +174,19 @@
                         </div>
                     </div>
                 </article>
-                <article>
-                    <div>
-                        <img src="icons/house-5.jpeg" alt="house">
-                        <div>
+                <article class="article">
+                    <div class="houses-in-section-2">
+                        <img class="img-in-section-2" src="icons/house-5.jpeg" alt="house">
+                        <div class="popular-and" id="deals">
                             <img src="icons/wallet.svg" alt="Best Deals">
                             <span>Best Deals</span>
                         </div>
                     </div>
-                    <div>
+                    <div class="name-price">
                         <span>The Old Lighthouse</span>
                         <span>$ 44.000.000</span>
                     </div>
-                    <div>
+                    <div class="name-city-avatar">
                         <img src="icons/avatar-6.jpeg" alt="avatar">
                         <div>
                             <span>Ronald Richards</span>
@@ -197,19 +194,19 @@
                         </div>
                     </div>
                 </article>
-                <article>
-                    <div>
-                        <img src="icons/house-20.jpeg" alt="house">
-                        <div>
+                <article class="article">
+                    <div class="houses-in-section-2">
+                        <img class="img-in-section-2" src="icons/house-20.jpeg" alt="house">
+                        <div class="popular-and">
                             <img src="icons/fire.svg" alt="logo Popular">
                             <span>Popular</span>
                         </div>
                     </div>
-                    <div>
+                    <div class="name-price">
                         <span>Cosmo's House</span>
                         <span>$ 22.000.000</span>
                     </div>
-                    <div>
+                    <div class="name-city-avatar">
                         <img src="icons/avatar-7.jpeg" alt="avatar">
                         <div>
                             <span>Jenny Wilson</span>
@@ -221,92 +218,96 @@
         </section>
 
 
-        <section>
-            <div>
+        <section class="section" id="section-2">
+            <div id="left-to-video">
                 <div>
-                    <div>
-                        <div>
+                    <div class="header-with-line">
+                        <div class="div-with-line">
                             <hr>
-                            <span>Ready to Sell!</span>
+                            <span>Ready To Sell!</span>
                         </div>
                         <h2>Let’s tour and see our house!</h2>
-                        <span>Houses recommended by our partners that have been curated to become the home of your dreams!</span>
+                        <span id="span-with-hr">Houses recommended by our partners that have been curated to become the home of your dreams!</span>
                     </div>
-                    <div>
-                        <span>House Detail</span>
-                        <div>
+                    <span id="house-detail">House Detail</span>
+                    <div id="four-logos">
+
+                        <div class="two-two-icons">
                             <div>
                                 <img src="icons/bed.svg" alt="bed">
                                 <span>4 Bedrooms</span>
                             </div>
                             <div>
-                                <img src="icons/bath.svg" alt="Bathrooms">
-                                <span>2 2 Bathrooms</span>
-                            </div>
-                        </div>
-                        <div>
-                            <div>
                                 <img src="icons/car.svg" alt="carport">
                                 <span>1 Carport</span>
+                            </div>
+                        </div>
+                        <div class="two-two-icons">
+                            <div>
+                                <img src="icons/bath.svg" alt="Bathrooms">
+                                <span>2 Bathrooms</span>
                             </div>
                             <div>
                                 <img src="icons/floor.svg" alt="Floors">
                                 <span>2 Floors</span>
                             </div>
+
                         </div>
                     </div>
                 </div>
-                <hr>
-                <div>
-                    <div>
-                        <img src="icons/avatar-3.jpeg" alt="avatar">
-                        <div>
+                <div id="div-big-hr">
+                    <hr id="big-hr">
+                </div>
+                <div id="under-line">
+                    <div class="name-city-avatar">
+                        <img class="avatar" src="icons/avatar-3.jpeg" alt="avatar">
+                        <div id="name-job">
                             <span>Dianne Russell</span>
                             <span>Manager Director</span>
                         </div>
                     </div>
-                    <a href="">
-                        <button>
-                            <span>Contact Now</span>
-                            <img src="icons/phone.svg" alt="phone">
-                        </button>
-                    </a>
-
+                    <button class="button-search">
+                        <img src="icons/phone.svg" alt="phone">
+                        <span>Contact Now</span>
+                    </button>
                 </div>
             </div>
-            <div>
+            <div id="video-section">
                 <video width="300" height="200" controls autoplay="autoplay">
                     <source src="video/video.mp4" type="video/mp4" />
                 </video>
-                <img src="icons/house-6.jpeg" alt="house">
-                <img src="icons/house-7.jpeg" alt="house">
-                <img src="icons/house-8.jpeg" alt="house">
+                <img class="images-with-video" src="icons/house-6.jpeg" alt="house">
+                <img class="images-with-video" src="icons/house-7.jpeg" alt="house">
+                <img class="images-with-video" src="icons/house-8.jpeg" alt="house">
             </div>
         </section>
 
 
-        <section>
-            <hr>
-            <span>See Our Review</span>
-            <h2>What Our User Say About Us</h2>
-            <div>
-                <article>
-                    <img src="icons/house-9.jpeg" alt="house">
-                    <div>
-                        <div>
+        <section id="section-3">
+            <div class="div-with-line sec-3-4">
+                <hr>
+                <span>See Our Review</span>
+                <h2>What Our User Say About Us</h2>
+            </div>
+
+            <div id="three-articles">
+                <article class="article-in-third">
+                    <img class="large-article-photo" src="icons/house-9.jpeg" alt="house">
+                    <div class="container-into-section-3">
+                        <div class="text-into-third">
                             <h4>My house sold out fast!</h4>
                             <p>I was finally able to sell my house quickly through Hounter by immediately setting me up with people who wanted my house. I also do not get a discount from the sale of my house. Awesome!</p>
                         </div>
-                        <div>
-                            <div>
+                        <div class="text-with-star">
+                            <div class="name-city-avatar">
                                 <img src="icons/avatar-11.jpeg" alt="avatar">
                                 <div>
                                     <span>Courtney Henry</span>
                                     <span>CEO Andarafish</span>
                                 </div>
                             </div>
-                            <div>
-                                <button>
+                            <div class="star">
+                                <button class="star-button">
                                     <img src="icons/star.svg" alt="star">
                                 </button>
                                 <span>4.3</span>
@@ -314,47 +315,50 @@
                         </div>
                     </div>
                 </article>
-                <article>
-                    <img src="icons/house-10.jpeg" alt="house">
-                    <div>
-                        <div>
+                <article class="article-in-third">
+                    <img class="large-article-photo" src="icons/house-10.jpeg" alt="house">
+                    <div class="container-into-section-3">
+                        <div class="text-into-third">
                             <h4>Best! I got the house I wanted through Hounter</h4>
-                            <p>I was finally able to sell my house quickly through Hounter by immediately setting me up with people who wanted my house. I also do not get a discount from the sale of my house. Awesome!</p>
+                            <p>Through this website I can get a house with the type and specifications I want very easily, without a complicated process to be able to find information on the house we want.</p>
                         </div>
-                        <div>
-                            <div>
+                        <div class="text-with-star">
+                            <div class="name-city-avatar">
                                 <img src="icons/avatar-3.jpeg" alt="avatar">
                                 <div>
                                     <span>Dianne Russell</span>
                                     <span>Manager Director</span>
                                 </div>
                             </div>
-                            <div>
-                                <button>
+                            <div class="star">
+                                <button class="star-button">
                                     <img src="icons/star.svg" alt="star">
                                 </button>
                                 <span>4.6</span>
                             </div>
                         </div>
                     </div>
+                    <div id="dots">
+                        <img src="icons/dots.svg" alt="dot">
+                    </div>
                 </article>
-                <article>
-                    <img src="icons/house-11.jpeg" alt="house 3">
-                    <div>
-                        <div>
+                <article class="article-in-third">
+                    <img class="large-article-photo" src="icons/house-11.jpeg" alt="house 3">
+                    <div class="container-into-section-3">
+                        <div class="text-into-third">
                             <h4>Through the Hounter, I can get a house for my self</h4>
                             <p>By looking for information about what kind of house we want, we managed to get the house we wanted very quickly, and directly connected with the seller to be able to ask about the details, very helpful!</p>
                         </div>
-                        <div>
-                            <div>
+                        <div class="text-with-star">
+                            <div class="name-city-avatar">
                                 <img src="icons/avatar-1.jpeg" alt="avatar">
                                 <div>
                                     <span>Esther Howard</span>
                                     <span>Head of Marketing</span>
                                 </div>
                             </div>
-                            <div>
-                                <button>
+                            <div class="star">
+                                <button class="star-button">
                                     <img src="icons/star.svg" alt="star">
                                 </button>
                                 <span>4.6</span>
@@ -363,86 +367,82 @@
                     </div>
                 </article>
             </div>
-            <div>
-                <img src="icons/dots.svg" alt="dot">
-            </div>
         </section>
 
-
-        <section>
-            <div>
-                <div>
-                    <div>
-                        <hr>
-                        <span>See tips and trick from our partnership</span>
-                    </div>
+        <section id="section-4">
+            <div id="header-section-4">
+                <div class="div-with-line sec-3-4" id="h2-4">
+                    <hr>
+                    <span>See tips and trick from our partnership</span>
                     <h2>Find Out More about selling and buying homes</h2>
                 </div>
-                <div>
-                    <button>More Artikel</button>
-                </div>
+                <button class="button-search">More Artikel</button>
             </div>
-            <article>
-                <div>
-                    <div>
-                        <img src="icons/avatar-12.jpeg" alt="avatar">
-                        <span>Cameron Williamson</span>
-                    </div>
-                    <h2>12 Things to know before buying a house</h2>
-                    <p>Want to buy a house but are unsure about what we should know, here I will try to explain what we should know and check when we want to buy a house</p>
+            <div id="left-section-4">
+                <div id="container-3-articles">
+                    <article class="container-article">
+                        <img class="image-article" src="icons/house-12.jpeg" alt="room">
+                        <div>
+                            <div class="main-text-article">
+                                <div class="avatar-name">
+                                    <img src="icons/avatar-3.jpeg" alt="avatar">
+                                    <span>Dianne Russell</span>
+                                </div>
+                                <h2>The things we need to check when we want to buy a house</h2>
+                            </div>
+                            <div class="clock">
+                                <img src="icons/clock.svg" alt="clock">
+                                <span>4 min read | 25 Apr 2021</span>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="container-article">
+                        <img class="image-article" src="icons/house-13.jpeg" alt="house">
+                        <div>
+                            <div class="main-text-article">
+                                <div class="avatar-name">
+                                    <img src="icons/avatar-8.jpeg" alt="avatar">
+                                    <span>Courtney Henry</span>
+                                </div>
+                                <h2>7 Ways to distinguish the quality of the house we want to buye</h2>
+                            </div>
+                            <div class="clock">
+                                <img src="icons/clock.svg" alt="clock">
+                                <span>6 min read | 24 Apr 2021</span>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="container-article">
+                        <img class="image-article" src="icons/house-14.jpeg" alt="house">
+                        <div>
+                            <div class="main-text-article">
+                                <div class="avatar-name">
+                                    <img src="icons/avatar-9.jpeg" alt="avatar">
+                                    <span>Darlene Robertson</span>
+                                </div>
+                                <h2>The best way to know the quality of the house we want to buy</h2>
+                            </div>
+                            <div class="clock">
+                                <img src="icons/clock.svg" alt="clock">
+                                <span>2 min read | 24 Apr 2021</span>
+                            </div>
+                        </div>
+                    </article>
                 </div>
-                <div>
-                    <img src="icons/clock.svg" alt="clock">
-                    <span>8 min read | 25 Apr 2021</span>
-                </div>
-                <img src="icons/house-2.jpeg" alt="villa">
-            </article>
-            <div>
-                <article>
-                    <img src="icons/house-12.jpeg" alt="room">
+                <article class="container-article" id="article-villa">
+                    <img class="image-article" src="icons/house-2.jpeg" id="villa" alt="villa">
                     <div>
-                        <div>
-                            <div>
-                                <img src="icons/avatar-3.jpeg" alt="avatar">
-                                <span>Dianne Russell</span>
+                        <div class="main-text-article">
+                            <div class="avatar-name">
+                                <img src="icons/avatar-12.jpeg" alt="avatar">
+                                <span>Cameron Williamson</span>
                             </div>
-                            <span>The things we need to check when we want to buy a house</span>
+                            <h2 id="h2-villa">12 Things to know before buying a house</h2>
+                            <p>Want to buy a house but are unsure about what we should know, here I will try to explain what we should know and check when we want to buy a house</p>
                         </div>
-                        <div>
+                        <div class="clock">
                             <img src="icons/clock.svg" alt="clock">
-                            <span>4 min read | 25 Apr 2021</span>
-                        </div>
-                    </div>
-                </article>
-                <article>
-                    <img src="icons/house-13.jpeg" alt="house">
-                    <div>
-                        <div>
-                            <div>
-                                <img src="icons/avatar-8.jpeg" alt="avatar">
-                                <span>Courtney Henry</span>
-                            </div>
-                            <span>7 Ways to distinguish the quality of the house we want to buye</span>
-                        </div>
-                        <div>
-                            <img src="icons/clock.svg" alt="clock">
-                            <span>6 min read | 24 Apr 2021</span>
-                        </div>
-                    </div>
-                </article>
-                <article>
-                    <img src="icons/house-14.jpeg" alt="house">
-                    <div>
-                        <div>
-                            <div>
-                                <img src="icons/avatar-9.jpeg" alt="avatar">
-                                <span>Darlene Robertson</span>
-                            </div>
-                            <span>The best way to know the quality of the house we want to buy</span>
-                        </div>
-                        <div>
-                            <img src="icons/clock.svg" alt="clock">
-                            <span>2 min read | 24 Apr 2021</span>
+                            <span>8 min read | 25 Apr 2021</span>
                         </div>
                     </div>
                 </article>
@@ -450,24 +450,25 @@
         </section>
 
 
-        <section>
-            <h2>Subscribe For More Info and update from Hounter</h2>
-            <form>
-                <input type="text" placeholder="Your email here">
-                <img src="icons/mail.svg" alt="mail logo">
-                <button>Subsribe Now</button>
-            </form>
-            <img src="icons/mail-back.png" alt="house">
+        <section id="section-5">
+            <div id="in-poster">
+                <h2>Subscribe For More Info and update from Hounter</h2>
+                <form class="search-location">
+                    <div class="search-field">
+                        <img class="icons" src="icons/mail.svg" alt="mail logo">
+                        <input type="text" placeholder="Your email here">
+                    </div>
+                    <button class="button-search" id="button-last">Subsribe Now</button>
+                </form>
+            </div>
+            <img id="big-poster" src="icons/mail-back.png" alt="house">
         </section>
     </main>
 
     <footer>
-        <div>
+        <div id="main-footer">
+            <img id="logo" src="icons/logo.svg" alt="logo">
             <span>We provide information about properties such as houses, villas and apartments to help people find their dream home</span>
-            <div>
-                <span>Hounter</span>
-                <img src="icons/logo.svg" alt="logo">
-            </div>
             <div>
                 <a href="https://www.facebook.com">
                     <img src="icons/facebook.svg" alt="facebook">
@@ -480,24 +481,26 @@
                 </a>
             </div>
         </div>
-        <div>
-            <h4>Property</h4>
-            <a href="">House</a>
-            <a href="">Apartment</a>
-            <a href="">Villa</a>
-        </div>
-        <div>
-            <h4>Article</h4>
-            <a href="">New Article</a>
-            <a href="">Popular Article</a>
-            <a href="">Most Read</a>
-            <a href="">Tips & Tricks</a>
-        </div>
-        <div>
-            <h4>Contact</h4>
-            <span>2464 Royal Ln. Mesa, New Jersey 45463</span>
-            <span>(671) 555-0110</span>
-            <span>info@hounter.com</span>
+        <div id="links">
+            <div class="div-in-links">
+                <h4>Property</h4>
+                <a href="">House</a>
+                <a href="">Apartment</a>
+                <a href="">Villa</a>
+            </div>
+            <div class="div-in-links">
+                <h4>Article</h4>
+                <a href="">New Article</a>
+                <a href="">Popular Article</a>
+                <a href="">Most Read</a>
+                <a href="">Tips & Tricks</a>
+            </div>
+            <div class="div-in-links">
+                <h4>Contact</h4>
+                <span>2464 Royal Ln. Mesa, New Jersey 45463</span>
+                <span>(671) 555-0110</span>
+                <span>info@hounter.com</span>
+            </div>
         </div>
     </footer>
 </body>
